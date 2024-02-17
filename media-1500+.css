@@ -1,0 +1,15 @@
+@media screen and (min-width: 1500px) and (max-width: 3000px){
+
+    #first_page{
+        height:150vh;
+    }
+    .first_container{
+        margin-bottom:300px;
+    }
+    .second_photo{
+        justify-content:flex-start;
+    }
+    #second_page{
+
+    }
+}
