@@ -140,7 +140,7 @@ header button{
     text-align:left;
     padding-left:20px;
 }
-/*---------------------SECOND PAGE------------------------*/
+/*--------------------------SECOND PAGE--------------------------*/
 #second_page{
     height:98vh;
 }
@@ -186,9 +186,9 @@ header button{
     height: 670px;
     flex-shrink: 0;
 }
-/*---------------------THIRD PAGE-------------------------*/
+/*---------------------------THIRD PAGE---------------------------*/
 #third_page{
-    height:100vh;
+    height:94.14vh;
 }
 .third_container{
     justify-content:center;
@@ -211,7 +211,7 @@ header button{
     line-height: 70px; /* 116.667% */
 }
 .services{
-    margin: 0 163px 0 164px;
+    margin: 0 160px 0 164px;
     width:77.43vw;
     height: 51.46vh;
     display: flex;
@@ -255,3 +255,98 @@ header button{
 .first_line{
     margin-bottom:120px;
 }
+/*---------------------------FOURTH PAGE---------------------------*/
+#fourth_page{
+    height:77.34vh;
+}
+.fourth_container{
+    margin: 0 120px 260px 120px;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:column;
+}
+.fourth_container h2{
+    color: #FFF;
+    font-family: Lato, sans-serif;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align:left;
+    margin-bottom:161px;
+}
+.portfolio{
+    display:flex;
+    justify-content: space-between;
+    width:85vw;
+
+}
+.portfolio_photo{
+    width: 384px;
+    height: 301px;
+    flex-shrink: 0;
+    border-radius: 14px;
+    background: #1E1E20;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.portfolio_photo img{
+    width: 336px;
+    height: 253px;
+    flex-shrink: 0;
+    border-radius: 12px;
+}
+.left_img{
+    margin-left:0;
+}
+.right_img{
+    margin-right:0;
+}
+/*---------------------------FIFTH PAGE---------------------------*/
+#fifth_page{
+    height:67.97vh;
+    display:flex;
+    flex-wrap:wrap;
+}
+.fifth_container{
+    width:100vw;
+    height:49.414vh;
+    background: rgba(30, 30, 32, 0.50);
+    flex-shrink: 0;
+    margin:0;
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.fifth_container h2{
+    color: #FFF;
+    font-family: Lato, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width:60%;
+    margin-left:120px;
+}
+.fifth_container button{
+    width: 201px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #5454D4;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin:0 120px 0 174px;
+}
+footer{
+    width:100vw;
+    /*justify-content: space-between;*/
+}
+
