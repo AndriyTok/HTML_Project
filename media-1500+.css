@@ -3,13 +3,16 @@
     #first_page{
         height:150vh;
     }
-    .first_container{
-        margin-bottom:300px;
-    }
     .second_photo{
         justify-content:flex-start;
     }
     #second_page{
-
+        height:135vh;
+    }
+    .text_third_page h2{
+        width:90%;
+    }
+    .services h3{
+        margin: 20px 0 20px 0;
     }
 }
