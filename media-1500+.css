@@ -31,10 +31,13 @@
     #fifth_page{
         height:80vh;
     }
-    #fifth_container{
-        width:90vw;
+    .fifth_container{
+        width:97vw;
+        justify-content: space-around;
     }
-    #fifth_container h2{
-        width:30%;
+    .fifth_container h2{
+        width:70%;
+
     }
+
 }
